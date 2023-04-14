@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Fira+Sans+Extra+Condensed:ital,wght@1,700&family=Philosopher:wght@700&display=swap');
+body {
+    font-family: 'Noto sans TC', sans-serif;
+    letter-spacing: 1px;
+    color: #333;
+    line-height: 1.4;
+    /* margin: 0; */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.wrapper-content {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px) {
+    .wrapper-content {
+        max-width: auto;
+    }
+}
+
+/* header */
+header,
+footer {
+    background-color: #ffe5da;
+}
+
+.header-content {
+    width: 100%;
+    height: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 24px;
+    color: #000;
+    text-decoration: underline;
+}
+
+.header-nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-text:hover {
+    transition: all 0.2s;
+    color: coral;
+}
+
+/* selected works */
+
+.secondary-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.wrapper-selected-works {
+    width: 95%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.wrapper-work {
+    vertical-align: center;
+    margin-top: 0px;
+    /* margin-bottom: 50px; */
+}
+
+.box-shadow {
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+}
+
+.work-img {
+    width: 270px;
+    /* height: 80; */
+}
+
+.secondary-title {
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.work-title {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.work-link-button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.link-button {
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #000;
+    color: white;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.link-button:hover {
+    background-color: coral;
+    transition: all 0.2s;
+}
+
+/* about */
+
+.wrapper-about {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about-img {
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.wrapper-about-text {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.about-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.about-skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.about-skill-item {
+    margin: 2px 60px 2px 0;
+}
+
+.about-link-button {
+    margin-top: 30px;
+}
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+}
+
+.footer-content {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav-list {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-license {
+    margin-top: 10px;
+}
+
+.footer-nav-list-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.footer-nav-list-text {
+    margin-bottom: 15px;
+}

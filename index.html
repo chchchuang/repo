@@ -1,10 +1,118 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>你好，GitHub</title>
-  </head>
-  <body>
-    <h1>Test</h1>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chchchuang's website</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-content wrapper-content">
+      <h1 class="logo">chchchuang</h1>
+      <nav class="header-nav">
+        <a href="" class="link-text">HOME</a>
+        <a href="" class="link-text">Side Projects</a>
+        <a href="" class="link-text">ABOUT</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="section-selected-works">
+      <div class="secondary-content wrapper-content">
+        <h2 class="secondary-title section-title">Side Projects</h2>
+        <div class="wrapper-selected-works">
+          <table>
+            <tr class="wrapper-work">
+              <td>
+                <img class="work-img box-shadow" src="assets/images/LineBot-cover.png" alt="Line記帳機器人">
+              </td>
+              <td>
+                <div class="wrapper-work-text">
+                  <ol>
+                    <h3 class="work-title">Line記帳機器人</h3>
+                    <li>這是一個用Python Flask、串接LineBot API (Webhook)、連結Google Sheet並部署在 GCP 的記帳機器人</li>
+                    <li>透過LineBot將帳目記錄在Google試算表, 並將函式部署雲端, 使用Line即可隨時輕鬆記帳</li>
+                    <div>
+                      <a href="https://github.com/chchchuang/LineBot" class="work-link-button link-button"
+                        target="_blank">View Detail</a>
+                    </div>
+                  </ol>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr class="wrapper-work">
+              <td>
+                <img class="work-img box-shadow" src="assets/images/Twittor-cover.png" alt="Twittor">
+              </td>
+              <td>
+                <div class="wrapper-work-text">
+                  <ol>
+                    <h3 class="work-title">Python Flask Demo - Twittor</h3>
+                    <li>這是一個用Python Flask、JavaScript (AJAX, Fetch)、Bootstrap 、MySQL、Docker架設並部署在 AWS 的社交網站</li>
+                    <li>仿Twitter設計的Demo網站, 可以進行推文及追蹤使用者的發文, 並支持第三方登入</li>
+                    <li>Demo: <a href="https://twittor.link/">https://twittor.link/</a><br>
+                      (使用 帳號: root/ 密碼: root 或自行註冊帳號進行登入)</li>
+                    <div>
+                      <a href="https://github.com/chchchuang/LineBot" class="work-link-button link-button"
+                        target="_blank">View Detail</a>
+                    </div>
+                  </ol>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+    </section>
+    <section class="section-about">
+      <div class="secondary-content wrapper-content">
+        <h2 class="secondary-title section-title">About</h2>
+        <div class="wrapper-about">
+          <img class="about-img" src="assets/images/chchchuang-img.png" alt="about-img">
+          <div class="wrapper-about-text">
+            <p>雖然非本科專業，但對軟體方面抱有熱忱，正在朝軟體工程師的方向努力前進。
+              工作之餘嘗試透過程式解決生活上的問題(例如：Line記帳機器人開發)，在開發side project中持續學習。</p>
+            <div class="about-title">Used Technologies</div>
+            <ul class="about-skill-list">
+              <li class="about-skill-item">Python Flask</li>
+              <li class="about-skill-item">C/C++</li>
+              <li class="about-skill-item">MySQL/SQLite</li>
+              <li class="about-skill-item">Docker/Docker-Compose</li>
+              <li class="about-skill-item">Git/GitHub</li>
+            </ul>
+            <a href="https://github.com/chchchuang" class="about-link-button link-button" target="_blank">More About
+              Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-content wrapper-content">
+      <div>
+        <div class="logo">chchchuang</div>
+        <div class="footer-license">© 2023</div>
+      </div>
+      <nav>
+        <div class="footer-nav-list">
+          <div class="footer-nav-list-title">NAVIGATION</div>
+          <a href="" class="footer-nav-list-text link-text">HOME</a>
+          <a href="" class="footer-nav-list-text link-text">Side Projects</a>
+          <a href="" class="footer-nav-list-text link-text">ABOUT</a>
+        </div>
+        <div class="footer-nav-list">
+          <div class="footer-nav-list-title">CONTACT</div>
+          <div class="footer-nav-list-text">chchchuang@gmail.com</div>
+        </div>
+      </nav>
+    </div>
+  </footer>
+</body>
+
 </html>
